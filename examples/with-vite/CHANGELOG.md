@@ -1,5 +1,115 @@
 # with-vite
 
+## 0.0.79
+
+### Patch Changes
+
+- Updated dependencies [2180ddd]
+- Updated dependencies [fea278a]
+  - @rainbow-me/rainbowkit@2.1.2
+
+## 0.0.78
+
+### Patch Changes
+
+- Updated dependencies [725a376]
+- Updated dependencies [9be5452]
+  - @rainbow-me/rainbowkit@2.1.1
+
+## 0.0.77
+
+### Patch Changes
+
+- Updated dependencies [90d6931]
+- Updated dependencies [82153ed]
+  - @rainbow-me/rainbowkit@2.1.0
+
+## 0.0.76
+
+### Patch Changes
+
+- Updated dependencies [8841891]
+  - @rainbow-me/rainbowkit@2.0.8
+
+## 0.0.75
+
+### Patch Changes
+
+- Updated dependencies [af4ea4e]
+- Updated dependencies [f0b3b25]
+  - @rainbow-me/rainbowkit@2.0.7
+
+## 0.0.74
+
+### Patch Changes
+
+- Updated dependencies [7ab6e50]
+- Updated dependencies [515498f]
+  - @rainbow-me/rainbowkit@2.0.6
+
+## 0.0.73
+
+### Patch Changes
+
+- Updated dependencies [81ba812]
+- Updated dependencies [fc4d7e1]
+- Updated dependencies [1a0f209]
+- Updated dependencies [b11118f]
+- Updated dependencies [4dd1e45]
+- Updated dependencies [ec41346]
+  - @rainbow-me/rainbowkit@2.0.5
+
+## 0.0.72
+
+### Patch Changes
+
+- Updated dependencies [77dcec3]
+- Updated dependencies [6c240ba]
+- Updated dependencies [34419b5]
+- Updated dependencies [5c60239]
+  - @rainbow-me/rainbowkit@2.0.4
+
+## 0.0.71
+
+### Patch Changes
+
+- c837995: Updated the following packages:
+  - wagmi to `^2.5.11`
+  - viem to `^2.8.12`
+  - @tanstack/react-query to `^5.28.4`
+  - typescript to `5.4.2`
+- Updated dependencies [b80e8fa]
+- Updated dependencies [985b80b]
+- Updated dependencies [b25db9a]
+  - @rainbow-me/rainbowkit@2.0.3
+
+## 0.0.70
+
+### Patch Changes
+
+- Updated dependencies [524d7a0]
+- Updated dependencies [2f637e4]
+- Updated dependencies [c021746]
+- Updated dependencies [df572f1]
+  - @rainbow-me/rainbowkit@2.0.2
+
+## 0.0.69
+
+### Patch Changes
+
+- d623428: Updated the following packages:
+  - wagmi to `^2.5.7`
+  - viem to `^2.7.12`
+  - @tanstack/react-query to `^5.22.2`
+- Updated dependencies [5149dbd]
+- Updated dependencies [1e7d3f4]
+- Updated dependencies [c16541a]
+- Updated dependencies [dbca966]
+- Updated dependencies [f69c0e1]
+- Updated dependencies [bb56562]
+- Updated dependencies [1a08977]
+  - @rainbow-me/rainbowkit@2.0.1
+
 ## 0.0.68
 
 ### Patch Changes

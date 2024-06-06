@@ -29,7 +29,6 @@ import {
   optimism,
   polygon,
   sepolia,
-  zora,
 } from 'wagmi/chains';
 
 import globalStylesUrl from './styles/global.css';
@@ -40,11 +39,13 @@ type Env = { PUBLIC_ENABLE_TESTNETS?: string };
 
 type LoaderData = { ENV: Env };
 
-export const meta: MetaFunction = () => ({
-  charset: 'utf-8',
-  title: 'RainbowKit Remix Example',
-  viewport: 'width=device-width,initial-scale=1',
-});
+export const meta: MetaFunction = () => ([
+  {
+    charset: 'utf-8',
+    title: 'RainbowKit Remix Example',
+    viewport: 'width=device-width,initial-scale=1',
+  },
+]);
 
 export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: globalStylesUrl },
@@ -81,7 +82,6 @@ export default function App() {
       optimism,
       arbitrum,
       base,
-      zora,
       ...testChains,
     ];
 

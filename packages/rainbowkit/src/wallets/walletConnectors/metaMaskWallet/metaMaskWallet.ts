@@ -1,3 +1,4 @@
+import { WindowProvider } from '../../../types/utils';
 import { isAndroid, isIOS } from '../../../utils/isMobile';
 import { DefaultWalletOptions, Wallet } from '../../Wallet';
 import {
@@ -8,7 +9,7 @@ import { getWalletConnectConnector } from '../../getWalletConnectConnector';
 
 export type MetaMaskWalletOptions = DefaultWalletOptions;
 
-function isMetaMask(ethereum?: (typeof window)['ethereum']): boolean {
+function isMetaMask(ethereum?: WindowProvider['ethereum']): boolean {
   // Logic borrowed from wagmi's MetaMaskConnector
   // https://github.com/wagmi-dev/references/blob/main/packages/connectors/src/metaMask.ts
   if (!ethereum?.isMetaMask) return false;
@@ -34,6 +35,7 @@ function isMetaMask(ethereum?: (typeof window)['ethereum']): boolean {
   if (ethereum.isImToken) return false;
   if (ethereum.isKuCoinWallet) return false;
   if (ethereum.isMathWallet) return false;
+  if (ethereum.isNestWallet) return false;
   if (ethereum.isOkxWallet || ethereum.isOKExWallet) return false;
   if (ethereum.isOneInchIOSWallet || ethereum.isOneInchAndroidWallet)
     return false;
@@ -160,7 +162,9 @@ export const metaMaskWallet = ({
       : getInjectedConnector({
           target:
             typeof window !== 'undefined'
-              ? window.ethereum?.providers?.find(isMetaMask) ?? window.ethereum
+              ? (window as WindowProvider).ethereum?.providers?.find(
+                  isMetaMask,
+                ) ?? window.ethereum
               : undefined,
         }),
   };

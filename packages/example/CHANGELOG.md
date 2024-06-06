@@ -1,5 +1,159 @@
 # example
 
+## 0.0.101
+
+### Patch Changes
+
+- fea278a: Removed `getDefaultWallets` in favor of a static `Popular` list to test the `coinbaseWallet.preference` setting
+- Updated dependencies [2180ddd]
+- Updated dependencies [fea278a]
+- Updated dependencies [9694368]
+  - @rainbow-me/rainbowkit@2.1.2
+  - @rainbow-me/rainbow-button@0.2.11
+  - @rainbow-me/rainbowkit-siwe-next-auth@0.4.1
+
+## 0.0.100
+
+### Patch Changes
+
+- 725a376: Added Magic Eden Wallet support with `magicEdenWallet` wallet connector
+- Updated dependencies [725a376]
+- Updated dependencies [9be5452]
+  - @rainbow-me/rainbowkit@2.1.1
+  - @rainbow-me/rainbow-button@0.2.10
+  - @rainbow-me/rainbowkit-siwe-next-auth@0.4.1
+
+## 0.0.99
+
+### Patch Changes
+
+- Updated dependencies [90d6931]
+- Updated dependencies [82153ed]
+  - @rainbow-me/rainbowkit@2.1.0
+  - @rainbow-me/rainbow-button@0.2.9
+  - @rainbow-me/rainbowkit-siwe-next-auth@0.4.1
+
+## 0.0.98
+
+### Patch Changes
+
+- Updated dependencies [8841891]
+  - @rainbow-me/rainbowkit@2.0.8
+  - @rainbow-me/rainbow-button@0.2.8
+  - @rainbow-me/rainbowkit-siwe-next-auth@0.4.0
+
+## 0.0.97
+
+### Patch Changes
+
+- af4ea4e: Added Kraken Wallet support with `krakenWallet` wallet connector
+- Updated dependencies [af4ea4e]
+- Updated dependencies [f0b3b25]
+  - @rainbow-me/rainbowkit@2.0.7
+  - @rainbow-me/rainbow-button@0.2.7
+  - @rainbow-me/rainbowkit-siwe-next-auth@0.4.0
+
+## 0.0.96
+
+### Patch Changes
+
+- Updated dependencies [7ab6e50]
+- Updated dependencies [515498f]
+  - @rainbow-me/rainbowkit@2.0.6
+  - @rainbow-me/rainbow-button@0.2.6
+  - @rainbow-me/rainbowkit-siwe-next-auth@0.4.0
+
+## 0.0.95
+
+### Patch Changes
+
+- 81ba812: Added support for `zetachain` and `zetachainAthensTestnet` testnet chain
+- b11118f: Added Kaikas Wallet support with `kaikasWallet` wallet connector and added `klaytn` chain with `klaytnBaobab` testnet support.
+- Updated dependencies [81ba812]
+- Updated dependencies [fc4d7e1]
+- Updated dependencies [1a0f209]
+- Updated dependencies [b11118f]
+- Updated dependencies [4dd1e45]
+- Updated dependencies [ec41346]
+  - @rainbow-me/rainbowkit@2.0.5
+  - @rainbow-me/rainbow-button@0.2.5
+  - @rainbow-me/rainbowkit-siwe-next-auth@0.4.0
+
+## 0.0.94
+
+### Patch Changes
+
+- 77dcec3: Added Bybit Wallet support with `bybitWallet` wallet connector
+- 6c240ba: Added Gate Wallet support with `gateWallet` wallet connector
+- 34419b5: Added Bitverse Wallet support with `bitverseWallet` wallet connector
+- 5c60239: Added 1inch Wallet support with `oneInchWallet` wallet connector
+- Updated dependencies [77dcec3]
+- Updated dependencies [6c240ba]
+- Updated dependencies [34419b5]
+- Updated dependencies [5c60239]
+  - @rainbow-me/rainbowkit@2.0.4
+  - @rainbow-me/rainbow-button@0.2.4
+  - @rainbow-me/rainbowkit-siwe-next-auth@0.4.0
+
+## 0.0.93
+
+### Patch Changes
+
+- c837995: Updated the following packages:
+  - wagmi to `^2.5.11`
+  - viem to `^2.8.12`
+  - @tanstack/react-query to `^5.28.4`
+  - typescript to `5.4.2`
+- Updated dependencies [b80e8fa]
+- Updated dependencies [985b80b]
+- Updated dependencies [b25db9a]
+  - @rainbow-me/rainbowkit@2.0.3
+  - @rainbow-me/rainbow-button@0.2.3
+  - @rainbow-me/rainbowkit-siwe-next-auth@0.4.0
+
+## 0.0.92
+
+### Patch Changes
+
+- 6982833: Updated the following packages:
+
+  - `next` to `^14.1.3`
+  - `eslint-config-next` to `^14.1.3`
+  - `@types/react` to `^18.2.64`
+  - `@types/react` to `^18.2.64`
+
+- Updated dependencies [524d7a0]
+- Updated dependencies [2f637e4]
+- Updated dependencies [c021746]
+- Updated dependencies [df572f1]
+  - @rainbow-me/rainbowkit@2.0.2
+  - @rainbow-me/rainbow-button@0.2.2
+  - @rainbow-me/rainbowkit-siwe-next-auth@0.4.0
+
+## 0.0.91
+
+### Patch Changes
+
+- 5149dbd: Added Ramper Wallet support with `ramperWallet` wallet connector
+- d623428: Updated the following packages:
+  - wagmi to `^2.5.7`
+  - viem to `^2.7.12`
+  - @tanstack/react-query to `^5.22.2`
+- 1e7d3f4: Added Ronin Wallet support with `roninWallet` wallet connector
+- c16541a: Added Kresus support with `kresusWallet` wallet connector
+- dbca966: Added Bloom Wallet support with `bloomWallet` wallet connector
+- f69c0e1: Added support for `ronin` chain
+- Updated dependencies [5149dbd]
+- Updated dependencies [1e7d3f4]
+- Updated dependencies [c16541a]
+- Updated dependencies [dbca966]
+- Updated dependencies [f69c0e1]
+- Updated dependencies [bb56562]
+- Updated dependencies [1a08977]
+  - @rainbow-me/rainbowkit@2.0.1
+  - @rainbow-me/rainbow-button@0.2.1
+  - @rainbow-me/rainbowkit-siwe-next-auth@0.4.0
+
 ## 0.0.90
 
 ### Patch Changes

@@ -1,5 +1,87 @@
 # with-next-rainbow-button
 
+## 0.0.20
+
+### Patch Changes
+
+- Updated dependencies [9694368]
+  - @rainbow-me/rainbow-button@0.2.11
+
+## 0.0.19
+
+### Patch Changes
+
+- @rainbow-me/rainbow-button@0.2.10
+
+## 0.0.18
+
+### Patch Changes
+
+- @rainbow-me/rainbow-button@0.2.9
+
+## 0.0.17
+
+### Patch Changes
+
+- @rainbow-me/rainbow-button@0.2.8
+
+## 0.0.16
+
+### Patch Changes
+
+- @rainbow-me/rainbow-button@0.2.7
+
+## 0.0.15
+
+### Patch Changes
+
+- @rainbow-me/rainbow-button@0.2.6
+
+## 0.0.14
+
+### Patch Changes
+
+- @rainbow-me/rainbow-button@0.2.5
+
+## 0.0.13
+
+### Patch Changes
+
+- @rainbow-me/rainbow-button@0.2.4
+
+## 0.0.12
+
+### Patch Changes
+
+- c837995: Updated the following packages:
+  - wagmi to `^2.5.11`
+  - viem to `^2.8.12`
+  - @tanstack/react-query to `^5.28.4`
+  - typescript to `5.4.2`
+  - @rainbow-me/rainbow-button@0.2.3
+
+## 0.0.11
+
+### Patch Changes
+
+- 6982833: Updated the following packages:
+
+  - `next` to `^14.1.3`
+  - `eslint-config-next` to `^14.1.3`
+  - `@types/react` to `^18.2.64`
+  - `@types/react` to `^18.2.64`
+  - @rainbow-me/rainbow-button@0.2.2
+
+## 0.0.10
+
+### Patch Changes
+
+- d623428: Updated the following packages:
+  - wagmi to `^2.5.7`
+  - viem to `^2.7.12`
+  - @tanstack/react-query to `^5.22.2`
+  - @rainbow-me/rainbow-button@0.2.1
+
 ## 0.0.9
 
 ### Patch Changes
